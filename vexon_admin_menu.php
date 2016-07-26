@@ -11,6 +11,7 @@ class vexon_admin_menu extends Module
         $this->version       = '1.0';
         $this->author        = 'Maciej Kara';
         $this->need_instance = 1;
+        $this->is_configurable = 1;
         $this->bootstrap     = true;
         $this->currencies    = false;
         parent::__construct();
